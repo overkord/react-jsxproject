@@ -38,6 +38,52 @@ html, body {
         // border: 1px solid #191919;
     }
 }
+.btn-logins {
+    background-color: #f9d783;
+    border-color: 1px solid #f9d783;
+    color: #191919;
+    text-decoration: none;
+    padding: 12px 35px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    i {
+        margin-left: 8px;
+        font-size: 0.9em;
+    }
+
+    &:hover {
+        background-color: #191919;
+        color: #DAD9D3;
+        // border: 1px solid #191919;
+    }
+}
+
+.btn-login {
+    background-color: #f9d783;
+    border-color: 1px solid #f9d783;
+    color: #191919;
+    text-decoration: none;
+    padding: 12px 35px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+
+    i {
+        margin-left: 8px;
+        font-size: 0.9em;
+    }
+
+    &:hover {
+        background-color: #191919;
+        color: #DAD9D3;
+        // border: 1px solid #191919;
+    }
+}
 
 .btn-transparent {
     background-color: transparent;
@@ -48,6 +94,32 @@ html, body {
     font-weight: 600;
     font-size: 16px;
     border-radius: 25px;
+
+
+    i {
+        margin-left: 8px;
+        font-size: 0.9em;
+    }
+
+    &:hover {
+        background-color: #191919;
+        border: 1px solid #191919;
+        color: #DAD9D3;
+    }
+}
+
+.btn-transCenter {
+    background-color: transparent;
+    border: 1px solid #191919;
+    color: #191919;
+    text-decoration: none;
+    padding: 12px 53px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
 
     i {
@@ -280,12 +352,6 @@ header {
                             transform: translate ((calc(50% - 15px)));
                         }
                     }
-                }
-
-
-                .btn-login {
-                    padding-top: 12px;
-                    padding-bottom: 12px;
                 }
             }
         }    

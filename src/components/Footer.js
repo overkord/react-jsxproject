@@ -1,6 +1,8 @@
 import React from 'react'
 import BackgroundLines from '../assets/images/Rectangle 116.png'
 import WhiteCrito from '../assets/images/Logo.png'
+import FooterBox from './Generics/FooterBox'
+
 
 const Footer = () => {
   return (
@@ -11,37 +13,10 @@ const Footer = () => {
                     <a className="logo" href="index.html"><img src={WhiteCrito} alt="critologgo" /></a>
                     <p>Lorem ipsum dolor sit amet consectetur<br /> adipisicing elit. Placeat obcaecati voluptas<br /> voluptates! Voluptates laborum nam<br /> ratione minus necessitatibus, iure<br /> praesentium.</p>
                 </div>
-                <div>
-                    <h3>Company</h3>
-                    <p>About</p>
-                    <p>Features</p>
-                    <p>Works</p>
-                    <p>Career</p>
-                </div>
-                
-                <div>
-                    <h3>Help</h3>
-                    <p>Cusutomer Support</p>
-                    <p>Delivery Details</p>
-                    <p>Terms & Condition</p>
-                    <p>Privacy Policy</p>
-                </div>
-
-                <div>
-                    <h3>Resources</h3>
-                    <p>Development Tutorial</p>
-                    <p>Free eBooks</p>
-                    <p>How to - Blog</p>
-                    <p>Youtube Playlist</p>
-                </div>
-
-                <div>
-                    <h3>Link</h3>
-                    <p>Development Tutorial</p>
-                    <p>Free eBooks</p>
-                    <p>How to - Blog</p>
-                    <p>Youtube Playlist</p>
-                </div>
+                    <FooterBox Headline ="Company" ParagraphOne="About" ParagraphTwo="Features" ParagraphThree="Works" ParagraphFour="Career"/>
+                    <FooterBox Headline ="Help" ParagraphOne="Customer Support" ParagraphTwo="Delivery Details" ParagraphThree="Terms & Conditions" ParagraphFour="Privacy Policy"/>
+                    <FooterBox Headline ="Resources" ParagraphOne="Development Tutorial" ParagraphTwo="Free eBooks" ParagraphThree="How to - Blog" ParagraphFour="Youtube Playlist"/>
+                    <FooterBox Headline ="Link" ParagraphOne="Decelopment Tutorial" ParagraphTwo="Free eBooks" ParagraphThree="How to - Blog" ParagraphFour="Youtube Playlist"/>               
             </div>
             
             <div className="copyright">

@@ -1,5 +1,6 @@
 import React from 'react'
 import CritoLoggo from '../assets/images/Crito.svg'
+import Button from './Generics/Button'
 
 
 // kolla knappen
@@ -40,7 +41,7 @@ Sveavägen 31, 111 34 STOCKHOLM
 <a href="news.html">News</a>
 <a href="contacts">Contact</a>
 </nav>
-<a className="btn-yellow btn-login" href="login.html">Login <i className="fa-regular fa-arrow-up-right"></i></a>  
+<Button type="login" title="Login" url="/services"/> 
 </div>
 </div>
 </header>  

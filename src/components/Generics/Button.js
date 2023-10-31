@@ -15,6 +15,12 @@ const Button = ({type, url, title}) => {
             return 'btn-intro'
         case 'yellowTwo':
             return 'btn-yellow2'
+        case 'login':
+            return 'btn-login'
+        case 'logins':
+            return 'btn-logins'
+        case 'transcenter':
+            return 'btn-transCenter'
       }
     }
    
