@@ -1,7 +1,7 @@
 import React from 'react'
-import BackgroundLines from '../assets/images/Rectangle 116.png'
-import WhiteCrito from '../assets/images/Logo.png'
-import FooterBox from './Generics/FooterBox'
+import BackgroundLines from '../../assets/images/Rectangle 116.png'
+import WhiteCrito from '../../assets/images/Logo.png'
+import FooterBox from '../Generics/FooterBox'
 
 
 const Footer = () => {

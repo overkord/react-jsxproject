@@ -1,8 +1,8 @@
 import React from 'react'
-import WavyLines from '../assets/images/Rectangle 607.png'
-import ManTablet from '../assets/images/Image.png'
-import Button from './Generics/Button'
-import SectionTitle from './Generics/SectionTitle'
+import WavyLines from '../../assets/images/Rectangle 607.png'
+import ManTablet from '../../assets/images/Image.png'
+import Button from '../Generics/Button'
+import SectionTitle from '../Generics/SectionTitle'
 
 const Showcase = () => {
   return (

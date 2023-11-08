@@ -273,6 +273,7 @@ header .container .menu {
   width: 50px;
   height: 50px;
   padding-top: 11px;
+  color: #FFFFFF;
 }
 @media (min-width: 375px) {
   .contact-us .container .contacts i {
@@ -317,21 +318,27 @@ header .container .menu {
   background-color: #F0EFE9;
   padding-bottom: 80px;
 }
+.form-section .container p {
+  color: rgb(64, 199, 111);
+  text-align: center;
+  font-size: 20px;
+}
 .form-section .container .button {
   padding: 10px 5px;
+}
+.form-section .container .button .errorMessage {
+  padding-top: 10px;
+  color: red;
+  font-size: 15px;
 }
 @media (min-width: 692px) {
   .form-section .container .button {
     padding: 30px 125px;
   }
 }
-.form-section .container .button a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .form-section .container .button .btn-yellow2 {
   font-size: 12px;
+  width: 100%;
 }
 @media (min-width: 375px) {
   .form-section .container .button .btn-yellow2 {
@@ -368,6 +375,7 @@ header .container .menu {
   border-radius: 25px;
   border: none;
   padding: 15px;
+  margin-bottom: 25px;
 }
 @media (min-width: 576px) {
   .form-section .container .forminput input {

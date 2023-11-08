@@ -1,7 +1,7 @@
 import React from 'react'
-import CritoLoggo from '../assets/images/Crito.svg'
-import Button from './Generics/Button'
-
+import CritoLoggo from '../../assets/images/Crito.svg'
+import Button from '../Generics/Button'
+import { NavLink, Link } from 'react-router-dom'
 
 // kolla knappen
 
@@ -12,7 +12,9 @@ const Header = () => {
 <button className="btn-menu-bars"><i className="fa-solid fa-bars"></i></button>
 <div className="logotype">
 <a href="index.html">
+  <Link to="/">
 <img src={CritoLoggo} alt="" />
+</Link>
 </a>
 </div>
 <div className="contact-information-bar">
@@ -36,10 +38,11 @@ Sveavägen 31, 111 34 STOCKHOLM
 <a href="https://linkedin.com" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
 </div>
 <div className="menu">
-<nav><a className="active" href="http://localhost:3001/">Home</a>
-<a href="services.html">Services</a>
-<a href="news.html">News</a>
-<a href="contacts">Contact</a>
+<nav>
+  <NavLink to="/">Home</NavLink>
+  <NavLink to="/services">Services</NavLink>
+  <NavLink to="/news">News</NavLink>
+  <NavLink to="/contacts">Contact</NavLink>
 </nav>
 <Button type="login" title="Login" url="/services"/> 
 </div>

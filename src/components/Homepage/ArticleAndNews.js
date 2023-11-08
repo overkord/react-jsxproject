@@ -1,9 +1,9 @@
 import React from 'react'
-import Button from './Generics/Button'
-import imgLaugh from '../assets/images/25th.png'
-import imgPc from '../assets/images/17th.png'
-import imgBooks from '../assets/images/13th.png'
-import ArticleAndNewsBox from './Generics/ArticleAndNewsBox'
+import Button from '../Generics/Button'
+import imgLaugh from '../../assets/images/25th.png'
+import imgPc from '../../assets/images/17th.png'
+import imgBooks from '../../assets/images/13th.png'
+import ArticleAndNewsBox from '../Generics/ArticleAndNewsBox'
 
 
 

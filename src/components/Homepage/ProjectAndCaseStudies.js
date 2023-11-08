@@ -1,11 +1,11 @@
 import React from 'react'
-import SectionTitle from './Generics/SectionTitle'
-import ProjectAndCaseStudiesBox from '../components/Generics/ProjectAndCaseStudiesBox'
-import Button from './Generics/Button'
-import imgNewspaper from '../assets/images/articleimage1.png'
-import imgApple from '../assets/images/articleimage2.png'
-import imgSupplies from '../assets/images/articleimage3.png'
-import imgLaptop from '../assets/images/articleimage4.png'
+import SectionTitle from '../Generics/SectionTitle'
+import ProjectAndCaseStudiesBox from '../Generics/ProjectAndCaseStudiesBox'
+import Button from '../Generics/Button'
+import imgNewspaper from '../../assets/images/articleimage1.png'
+import imgApple from '../../assets/images/articleimage2.png'
+import imgSupplies from '../../assets/images/articleimage3.png'
+import imgLaptop from '../../assets/images/articleimage4.png'
 
 const ProjectAndCaseStudies = () => {
   return (

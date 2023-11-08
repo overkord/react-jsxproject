@@ -1,9 +1,9 @@
 import React from 'react'
-import Paperz from '../assets/images/8.png'
-import Dorfuz from '../assets/images/5.png'
-import Martino from '../assets/images/6.png'
-import Square from '../assets/images/9.png'
-import Gobana from '../assets/images/10.png'
+import Paperz from '../../assets/images/8.png'
+import Dorfuz from '../../assets/images/5.png'
+import Martino from '../../assets/images/6.png'
+import Square from '../../assets/images/9.png'
+import Gobana from '../../assets/images/10.png'
 
 const Company = () => {
   return (

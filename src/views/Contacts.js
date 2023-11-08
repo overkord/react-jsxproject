@@ -1,7 +1,11 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Footer from '../components/Homepage/Footer'
+import Header from '../components/Homepage/Header'
 import '../contact.css';
+import Headline from '../components/Contactpage/Headline';
+import ContactUs from '../components/Contactpage/ContactUs';
+import FormSection from '../components/Contactpage/FormSection';
+import Map from '../components/Contactpage/Map';
 
 
 const Contacts = () => {
@@ -9,7 +13,10 @@ const Contacts = () => {
     <>
         <Header />
         <main>
-          
+          <Headline />
+          <ContactUs />
+          <FormSection />
+          <Map />
         </main>
         <Footer />
         </>

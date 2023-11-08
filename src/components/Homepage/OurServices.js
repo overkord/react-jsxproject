@@ -1,8 +1,8 @@
 import React from 'react'
-import WhiteLines from '../assets/images/whitelines3.png'
-import OurServiceBox from './Generics/OurServiceBox'
-import Button from './Generics/Button'
-import SectionTitle from './Generics/SectionTitle'
+import WhiteLines from '../../assets/images/whitelines3.png'
+import OurServiceBox from '../Generics/OurServiceBox'
+import Button from '../Generics/Button'
+import SectionTitle from '../Generics/SectionTitle'
 
 
 

@@ -1,12 +1,12 @@
 import React from 'react'
-import imgWavyRight from '../assets/images/Element.svg'
-import Button from './Generics/Button'
+import imgWavyRight from '../../assets/images/Element.svg'
+import Button from '../Generics/Button'
 
 const NewsLetter = () => {
   return (
-    <section class="newsletter">
+    <section className="newsletter">
     <img className="wavy-right" src={imgWavyRight} alt="wavy-right" />
-    <div class="container">
+    <div className="container">
         <h2>Get News Updates By Signup</h2>
         <form>
             <input type="text" placeholder="username@domain.com" />

@@ -1,7 +1,10 @@
 import React from 'react'
-import SectionTitle from './Generics/SectionTitle'
-import Button from './Generics/Button'
-import GirlCorridor from '../assets/images/girlbook.png'
+import SectionTitle from '../Generics/SectionTitle'
+import Button from '../Generics/Button'
+import GirlCorridor from '../../assets/images/girlbook.png'
+import { NavLink, Link } from 'react-router-dom'
+
+
 
 const AbouutCompany = () => {
   return (
