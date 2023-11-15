@@ -14,10 +14,7 @@ const FormSection = () => {
     e.preventDefault();
     setErrorMessage('');
 
-    if (!name.match(nameRegex) || !email.match(emailRegex) || !message) {
-      setErrorMessage('Vänligen fyll i samtliga fält korrekt');
-      return;
-    }
+    
 
     const user = { name, email, message };
     const json = JSON.stringify(user);
@@ -35,17 +32,12 @@ const FormSection = () => {
 
     if (result.status === 200) {
       setFormSubmitted(true);
-      alert('Tack för att du kontaktar oss.');
     } else if (result.status === 400) {
-      alert('Något gick fel');
-      clearForm();
+      if (!name.match(nameRegex) || !email.match(emailRegex) || !message) {
+        setErrorMessage('Vänligen fyll i samtliga fält korrekt');
+        return;
+      }
     }
-  };
-
-  const clearForm = () => {
-    setName('');
-    setEmail('');
-    setMessage('');
   };
 
   return (
@@ -56,7 +48,7 @@ const FormSection = () => {
         </div>
         {formSubmitted ? (
           <p className="Sent">
-            Vi återkommer inom kort på din angivna email.
+            Tack! Vi återkommer inom kort på din angivna email.
           </p>
         ) : (
           <form className="forminput" onSubmit={handleSubmit} noValidate>

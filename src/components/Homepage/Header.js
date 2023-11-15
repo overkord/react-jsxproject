@@ -41,7 +41,7 @@ Sveavägen 31, 111 34 STOCKHOLM
 <nav>
   <NavLink to="/">Home</NavLink>
   <NavLink to="/services">Services</NavLink>
-  <NavLink to="/news">News</NavLink>
+  <NavLink to="/newsandarticles">News</NavLink>
   <NavLink to="/contacts">Contact</NavLink>
 </nav>
 <Button type="login" title="Login" url="/services"/> 
